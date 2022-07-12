@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+
+ul#menu{
+	background-color: RGBa(0,0,0,0.7);
+	line-height: 60px;
+	position: fixed;
+	width: 100%;
+}
+
+ul#menu li{
+	display: inline;
+}
+
+nav a:link, a:visited{
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #D9C852;
+	padding: 21px;
+	text-shadow: 1px 1px 20px #000;
+}
+
+nav a:hover, a:active{
+	background-color: #D9C852;
+	color: #BC4014;
+	text-shadow: 1px 1px 20px #FFF;
+}
+
+#banner{
+	background-image: url("../images/6.jpg");
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+h1.destaque{
+	font-family: 'Fredoka One', cursive;
+	font-size: 4.0rem;
+	color: #FFF;
+	text-shadow: 1px 1px #000;
+	display: grid;
+	align-items: center;
+	height: 100vh;
+	animation: zoomInUp;
+	animation-duration: 3s;
+}
+
+#about{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,93,9,1) 35%, rgba(255,149,0,1) 100%);
+	width: 100%;
+	height: 100vh;
+	color: #FFF;
+	font-size: 2.0em;
+	text-shadow: 1px 1px #000;
+}
+
+p{
+	padding: 0 50px;
+	text-align: justify;
+}
+
+h1{
+	padding: 100px 50px 50px 50px;	
+	text-align: center;
+}
+
+#gallery{
+	background-color: #88A61C;
+	width: 100%;
+	height: 100vh;
+	font-size: 2.0em;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.galeria{
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+	border-radius: 10px;
+	border: 1px solid #FFF;
+	box-shadow: 5px 5px 25px #000;
+}
+
+#parallax {
+	background-image: url("../images/parallax.jpg");
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Fredoka One', cursive;
+
+	color: #FFF;
+	text-shadow: 1px 1px #000;
+}
+#parallax h1{
+	font-size: 3.0rem;
+	animation: zoomInUp;
+	animation-duration: 3s;
+}
+
+#contact{
+	background-color: #D9C852;
+	width: 100%;
+	height: 100vh;
+	font-size: 2.0em;
+	text-align: center;
+}
+
+#contact label{
+	display: block;
+	margin-top: 10px;
+}
+
+#contact input, textarea{
+	width: 400px;
+	font-size: 0.8em;
+	padding: 8px;
+	border: 0;
+	border-radius: 10px;
+}
+
+#contact button{
+	border: 0;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #592715;
+	color: #FFF;
+}
+
+#contact button:hover{
+	color: #592715;
+	border: 1px solid #592715;
+	background-color: #D9C852;
+}
